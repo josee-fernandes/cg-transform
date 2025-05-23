@@ -3,16 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://josee-fernandes.github.io/cg-transform",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^6.3.5"
   },
   "dependencies": {
     "dat.gui": "^0.7.9",
-    "three": "^0.176.0"
+    "gh-pages": "^6.3.0",
+    "three": "^0.176.0",
+    "vite-plugin-gh-pages": "^1.0.1"
   }
 }
