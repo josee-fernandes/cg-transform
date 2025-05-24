@@ -62,7 +62,7 @@ function createScene(name, matrixSteps, color) {
   // Com sistema de coordenadas conforme especificado:
   // SRD: eixo X (horizontal, direita), eixo Y (vertical, baixo), eixo Z (perpendicular, para dentro)
   const camera = new THREE.PerspectiveCamera(45, viewportWidth / viewportHeight, 0.1, 100)
-  camera.position.set(3.5 * p, 3.5 * p, 4.5 * p)
+  camera.position.set(4.5 * p, 4.5 * p, 6.75 * p)
   camera.lookAt(new THREE.Vector3(0, 0, 0)) // Olhando para o centro da window
 
   const controls = new OrbitControls(camera, renderer.domElement)
