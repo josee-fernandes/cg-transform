@@ -3,30 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Transformação de Cubo 3D com Three.js</title>
-    <style>
-      body {
-        margin: 0;
-        overflow: hidden;
-      }
-      #matrixDisplay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: rgba(255, 255, 255, 0.9);
-        font-family: monospace;
-        font-size: 12px;
-        padding: 10px;
-        white-space: pre;
-        max-width: 300px;
-        max-height: 100%;
-        overflow: auto;
-        z-index: 10;
-      }
-    </style>
+    <link rel="stylesheet" href="/src/style.css">
   </head>
   <body>
-    <div id="matrixDisplay"></div>
-    <div id="app"></div>
+    <h1>Transformações do Cubo em SRU para SRD</h1>
+    <div class="container grid" id="sceneGrid"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
