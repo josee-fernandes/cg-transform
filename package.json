@@ -1,5 +1,8 @@
 {
   "name": "cg-transform",
+  "description": "Transformação de Cubo 3D com Three.js",
+  "author": "José Fernandes",
+  "license": "MIT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
